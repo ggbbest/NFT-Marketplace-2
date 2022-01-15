@@ -12,7 +12,8 @@ import CardContent from "@material-ui/core/CardContent";
 import CardActionArea from "@material-ui/core/CardActionArea";
 
 import { useStyles } from "./styles.js";
-import { ReactComponent as EthereumLogo } from "../../assets/ethereum_logo.svg";
+// import { ReactComponent as EthereumLogo } from "../../assets/ethereum_logo.svg";
+import { ReactComponent as EthereumLogo } from "../../assets/c4eiLogo.svg";
 
 const Card = ({ tokenId, name, image, price, owner, isForSale }) => {
   const classes = useStyles();
@@ -48,7 +49,7 @@ const Card = ({ tokenId, name, image, price, owner, isForSale }) => {
               <SvgIcon
                 component={EthereumLogo}
                 viewBox="0 0 400 426.6"
-                titleAccess="ETH"
+                titleAccess="C4EI"
               />
               <span>{Web3.utils.fromWei(String(price), "ether")}.120000</span>
             </Typography>

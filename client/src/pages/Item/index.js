@@ -78,7 +78,7 @@ const Item = () => {
   return (
     <div className={classes.pageItem}>
       {Object.keys(nft).length === 0 ? (
-        <div>...CARREGANDO</div>
+        <div>...적재</div>
       ) : (
         <main>
           <header className={classes.pageHeader}>
@@ -140,7 +140,7 @@ const Item = () => {
                     defaultValue={Web3.utils.fromWei(String(price), "ether")}
                     InputProps={{
                       startAdornment: (
-                        <InputAdornment position="start">ETH</InputAdornment>
+                        <InputAdornment position="start">C4EI</InputAdornment>
                       ),
                     }}
                     fullWidth
