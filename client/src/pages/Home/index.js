@@ -163,7 +163,7 @@ const Home = () => {
           </Grid>
           <Grid item xs={6} className={classes.main}>
             <img src={galerie} alt="galerie" />
-            <Typography>A decentralized NFT marketplace where you can expose your art.</Typography>
+            <Typography>C4ei NFT marketplace where you can expose your art.</Typography>
             <Link to="/create-nft">
               <Button variant="contained" color="primary" disableElevation>
                 Mint your art

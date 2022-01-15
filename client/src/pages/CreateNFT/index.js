@@ -135,7 +135,7 @@ const CreateNFT = () => {
               value={formData.price}
               onChange={handleInputChange}
               InputProps={{
-                startAdornment: <InputAdornment position="start">ETH</InputAdornment>,
+                startAdornment: <InputAdornment position="start">C4EI</InputAdornment>,
               }}
               fullWidth
             />

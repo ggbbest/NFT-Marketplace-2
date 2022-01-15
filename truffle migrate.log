@@ -1,0 +1,103 @@
+truffle migrate
+
+Compiling your contracts...
+===========================
+✔ Fetching solc version list from solc-bin. Attempt #1
+✔ Downloading compiler. Attempt #1.
+> Compiling ./contracts/ArtMarketplace.sol
+> Compiling ./contracts/ArtToken.sol
+> Compiling ./contracts/Migrations.sol
+> Compiling @openzeppelin/contracts/token/ERC721/ERC721.sol
+> Compiling @openzeppelin/contracts/token/ERC721/IERC721.sol
+> Compiling @openzeppelin/contracts/token/ERC721/IERC721Receiver.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/ERC721URIStorage.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/IERC721Enumerable.sol
+> Compiling @openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol
+> Compiling @openzeppelin/contracts/utils/Address.sol
+> Compiling @openzeppelin/contracts/utils/Context.sol
+> Compiling @openzeppelin/contracts/utils/Counters.sol
+> Compiling @openzeppelin/contracts/utils/Strings.sol
+> Compiling @openzeppelin/contracts/utils/introspection/ERC165.sol
+> Compiling @openzeppelin/contracts/utils/introspection/IERC165.sol
+✔ Fetching solc version list from solc-bin. Attempt #1
+> Artifacts written to /home/dev/www/nft2.c4ei.net/client/src/contracts
+> Compiled successfully using:
+   - solc: 0.8.11+commit.d7f03943.Emscripten.clang
+
+
+
+Starting migrations...
+======================
+> Network name:    'development'
+> Network id:      21004
+> Block gas limit: 8000000 (0x7a1200)
+
+
+1_initial_migration.js
+======================
+
+   Deploying 'Migrations'
+   ----------------------
+   > transaction hash:    0xbc8db7e21711b73b78f2c2a07f97d021c7eea5bcde7d800080e55b77ff805c6a
+   > Blocks: 1            Seconds: 8
+   > contract address:    0x14778673B19647a31A6700d3494A5db7EBf1cba3
+   > block number:        554552
+   > block timestamp:     1642210728
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             10.173580648067521536
+   > gas used:            248842 (0x3cc0a)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000248842 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:         0.000248842 ETH
+
+
+2_deploy_contracts.js
+=====================
+
+   Deploying 'ArtToken'
+   --------------------
+   > transaction hash:    0x75680d89131297902d40fd58fa72ef9be97fc503a214cc55a11b3ccc5e2c40ae
+   > Blocks: 0            Seconds: 0
+   > contract address:    0x85BD01E1c9Ead7E9265012cA63d92BD6EEE93bC9
+   > block number:        554554
+   > block timestamp:     1642210852
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             10.173580648067521536
+   > gas used:            2806516 (0x2ad2f4)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.002806516 ETH
+
+
+   Deploying 'ArtMarketplace'
+   --------------------------
+   > transaction hash:    0xc927008715a72010737a13db2d4d2cf561acbb910f567dd602d3ba474c15f440
+   > Blocks: 1            Seconds: 16
+   > contract address:    0xC709995904A8de8A7849B145E43543eFe5CB5BB7
+   > block number:        554556
+   > block timestamp:     1642210858
+   > account:             0xAd70df6Bd78734721F42CD8cCACe42b25D83Aa65
+   > balance:             10
+   > gas used:            1057194 (0x1021aa)
+   > gas price:           1 gwei
+   > value sent:          0 ETH
+   > total cost:          0.001057194 ETH
+
+
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:          0.00386371 ETH
+
+
+Summary
+=======
+> Total deployments:   3
+> Final cost:          0.004112552 ETH
